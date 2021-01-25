@@ -7,10 +7,12 @@ This startup project "React Native Map Box Startup" is a mapping application.
 If you have any questions, please contact [dfortiz@gmail.com](mailto:dfortiz@gmaile.com) 
 
 ## Features
-- Mapbox framework for react native
+- Mapbox for react native
 - Current location use a round marker with the hex code #0490E1
 - Current location update in real-time
-- Directions draw like an polylines with the hex code #000000
+- Draw Directions like polylines with the hex code #000000
+- Text input with button to find route
+- Long press on map to automatically find the route
 - The text input with border-radius 35px, the border's hex code #EEEEEE
 - Just draws valid directions, and display an error message if the data load fails for some reason
 - Show an ActivityIndicator while loading the map or data
@@ -67,7 +69,7 @@ Screenshots
 [![long press](https://raw.githubusercontent.com/dfortiz/rnmb/master/screenshots/no-route-found.png)](#screenshots)
 
 
-Whats next
+What's next
 =========
 
 - Add the coverage test
